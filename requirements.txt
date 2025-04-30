@@ -1,0 +1,8 @@
+gymnasium[mujoco]
+torch
+stable-baselines3
+PyYAML
+matplotlib
+tensorboard
+standard-imghdr
+gymnasium[classic_control]

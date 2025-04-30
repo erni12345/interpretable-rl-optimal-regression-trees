@@ -1,0 +1,53 @@
+
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Logs and checkpoints
+logs/
+checkpoints/
+*.log
+*.out
+
+# TensorBoard
+tensorboard/
+*.tfevents.*
+
+# Results and metrics
+*.csv
+*.json
+
+# Models
+*.zip
+*.pth
+*.onnx
+
+# MuJoCo
+*.mjb
+*.xml~
+mujoco/
+
+# pystreed tree outputs
+*.dot
+leaf-distributions/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Ignore data used for supervised tree fitting
+data/
